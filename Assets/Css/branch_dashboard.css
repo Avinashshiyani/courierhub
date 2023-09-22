@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.activelogout{
+    display: block;
+    margin-top: 15px;
+    transition: 2s;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.envelopnoti::after{
+  content: "";
+  position: absolute;
+  margin-left: -5px;
+  height: 7px;
+  width: 7px;
+  border-radius: 100%;
+  background-color: #00D258;
+}
+.bellnoti::after{
+  content: "";
+  position: absolute;
+  margin-left: -5px;
+  height: 7px;
+  width: 7px;
+  border-radius: 100%;
+  background-color: #FC424A;
+}
+.imagenoti::after{
+  content: "";
+  margin-left: -7px;
+  margin-top: 27px;
+  height: 7px;
+  width: 7px;
+  border-radius: 100%;
+  background-color: #00D258;
+}
+.hamburgerout{
+  position: fixed;
+  left: 50px;
+  transition: 0.3s;
+  margin-left: 0px;
+}
+
+
+/* clock css */
